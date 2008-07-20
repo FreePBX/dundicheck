@@ -3,7 +3,7 @@
 	<name>DUNDi Lookup Registry</name>
 	<version>2.5.0</version>
 	<changelog>
-		*2.5.0* First release
+		*2.5.0* #2918 First release
 	</changelog>
 	<description>
 		This module will check all configured and enabled DUNDi trunks as part of the extension registry function, and report back conflicts if
@@ -14,6 +14,9 @@
 	<menuitems>
 		<dundicheck>DUNDi Lookup</dundicheck>
 	</menuitems>
+	<depends>
+		<version>2.4.0</version>
+	</depends>
 	<category>System Administration</category>
 	<location>release/2.4/dundicheck-0.8.0.tgz</location>
 	<md5sum>83b552d1c530cbe2f7d6c0d5d892c85b</md5sum>
