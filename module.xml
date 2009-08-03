@@ -1,8 +1,11 @@
 <module>
 	<rawname>dundicheck</rawname>
 	<name>DUNDi Lookup Registry</name>
-	<version>2.5.0</version>
+	<version>2.6.0.0</version>
+	<publisher>FreePBX</publisher>
+	<license>GPLv2+</license>
 	<changelog>
+		*2.6.0.0* localizations
 		*2.5.0* #2918 First release
 	</changelog>
 	<description>
