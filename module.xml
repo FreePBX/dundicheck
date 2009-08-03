@@ -21,6 +21,6 @@
 		<version>2.4.0</version>
 	</depends>
 	<category>System Administration</category>
-	<location>release/2.5/dundicheck-2.5.0.tgz</location>
-	<md5sum>a84838a7ed6ce465db31ec55dc48a978</md5sum>
+	<location>release/2.6/dundicheck-2.6.0.0.tgz</location>
+	<md5sum>bff79877e171914b11ed7ec76531e540</md5sum>
 </module>
