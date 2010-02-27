@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 13:45+0100\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,15 +28,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: dundicheck/dundicheck.i18n.php:5
 msgid "DUNDi Lookup Registry"
 msgstr ""
 
-#: dundicheck/dundicheck.i18n.php:7
 msgid "System Administration"
 msgstr ""
 
-#: dundicheck/dundicheck.i18n.php:9
 msgid ""
 "This module will check all configured and enabled DUNDi trunks as part of "
 "the extension registry function, and report back conflicts if\t\tother sites "
@@ -45,21 +42,17 @@ msgid ""
 "could be used to call that number."
 msgstr ""
 
-#: dundicheck/dundicheck.i18n.php:11 dundicheck/page.dundicheck.php:46
 #, php-format
 msgid "DUNDi Lookup"
 msgstr ""
 
-#: dundicheck/functions.inc.php:63
 msgid "DUNDi: "
 msgstr ""
 
-#: dundicheck/page.dundicheck.php:25
 #, php-format
 msgid "DUNDi Information: %s"
 msgstr ""
 
-#: dundicheck/page.dundicheck.php:27
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -72,23 +65,18 @@ msgid ""
 "one."
 msgstr ""
 
-#: dundicheck/page.dundicheck.php:31
 msgid "No matches found"
 msgstr ""
 
-#: dundicheck/page.dundicheck.php:34
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr ""
 
-#: dundicheck/page.dundicheck.php:55
 msgid "Lookup Number:"
 msgstr ""
 
-#: dundicheck/page.dundicheck.php:55
 msgid "Lookup Another Number:"
 msgstr ""
 
-#: dundicheck/page.dundicheck.php:58
 msgid "Lookup"
 msgstr ""
