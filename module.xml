@@ -11,7 +11,7 @@
 	<description>
 		This module will check all configured and enabled DUNDi trunks as part of the extension registry function, and report back conflicts if
 		other sites have the same extensions. This does not filter against the route patterns - it will take any number being created and
-		report a conflict if that turnk could be used to call that number.
+		report a conflict if that trunk could be used to call that number.
 	</description>
 	<type>tool</type>
 	<menuitems>
