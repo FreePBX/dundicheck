@@ -1,10 +1,11 @@
 <module>
 	<rawname>dundicheck</rawname>
 	<name>DUNDi Lookup Registry</name>
-	<version>2.6.0.0</version>
+	<version>2.7.0.0</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<changelog>
+		*2.7.0.0* spelling errors, localizations
 		*2.6.0.0* localizations
 		*2.5.0* #2918 First release
 	</changelog>
@@ -21,6 +22,6 @@
 		<version>2.4.0</version>
 	</depends>
 	<category>System Administration</category>
-	<location>release/2.6/dundicheck-2.6.0.0.tgz</location>
-	<md5sum>bff79877e171914b11ed7ec76531e540</md5sum>
+	<location>release/2.7/dundicheck-2.7.0.0.tgz</location>
+	<md5sum>9ec289c1f2a1d07357b2f2b6b00c2386</md5sum>
 </module>
