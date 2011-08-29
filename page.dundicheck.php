@@ -15,11 +15,6 @@ $extdisplay = isset($_REQUEST['extdisplay'])?$_REQUEST['extdisplay']:'';
 $type = isset($_REQUEST['type'])?$_REQUEST['type']:'tool';
 $dundiconflict = isset($_REQUEST['dundiconflict'])?$_REQUEST['dundiconflict']:'';
 
-?>
-</div>
-<div class="content">
-
-<?php
 
 if ($extdisplay != "") {
 	echo "<h2>".sprintf(_("DUNDi Information: %s"),$extdisplay)."</h2>";
