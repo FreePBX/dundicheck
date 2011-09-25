@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX v2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-28 02:52+0200\n"
+"POT-Creation-Date: 2011-09-23 09:52+0000\n"
 "PO-Revision-Date: 2009-02-14 16:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: Chavdar Iliev <chavdar_75@yahoo.com>\n"
@@ -18,47 +18,63 @@ msgstr ""
 "X-Poedit-Country: BULGARIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: functions.inc.php:63
-msgid "DUNDi: "
-msgstr "DUNDi: "
+msgid "DUNDi Lookup Registry"
+msgstr "DUNDi Търсене"
 
-#: page.dundicheck.php:25
-#, php-format
-msgid "DUNDi Information: %s"
-msgstr "DUNDi Информация: %s"
+msgid "Admin"
+msgstr ""
 
-#: page.dundicheck.php:27
-#, php-format
-msgid "The number you are trying to use, %s, is currently available from one of the DUNDi routes you have configured on your system. As a result you cannot use this number on this system. Even if the route configuration does not pass this number you will still be blocked from creating it. If this is not an error, then you will have to un-publish this number on your remote DUNDi setup, disable the DUNDi trunk in question, or disable this module to avoid the checks. Otherwise, remove %s from the remote system before creating this one."
-msgstr "Номера който се опитвате да използвате, %s, в момента е настроен в един от DUNDi маршрутите които сте конфигурирали. Като резултат вие не можете да използвате номера в тази система. Дори конфигурацията на маршрута да не съвпада с този номер вие все пак ще бъдете блокирани от създаването му. Ако това не е грешка, тогава трябва да махнете този номер от отсрещната DUNDi настройка, забранете DUNDi външната линия в запитването, или забранете този модул за да избегнете проверките. Иначе, премахнете %s от отсрещната система преди да създадете тази."
+msgid ""
+"This module will check all configured and enabled DUNDi trunks as part of "
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
+msgstr ""
 
-#: page.dundicheck.php:31
-msgid "No matches found"
-msgstr "Не са намерени съвпадения"
-
-#: page.dundicheck.php:34
-#, php-format
-msgid "Results from DUNDi trunk: %s"
-msgstr "Резултати от DUNDi външни линии: %s"
-
-#: page.dundicheck.php:46
 #, php-format
 msgid "DUNDi Lookup"
 msgstr "DUNDi Търсене"
 
-#: page.dundicheck.php:55
+msgid "DUNDi: "
+msgstr "DUNDi: "
+
+#, php-format
+msgid "DUNDi Information: %s"
+msgstr "DUNDi Информация: %s"
+
+#, php-format
+msgid ""
+"The number you are trying to use, %s, is currently available from one of the "
+"DUNDi routes you have configured on your system. As a result you cannot use "
+"this number on this system. Even if the route configuration does not pass "
+"this number you will still be blocked from creating it. If this is not an "
+"error, then you will have to un-publish this number on your remote DUNDi "
+"setup, disable the DUNDi trunk in question, or disable this module to avoid "
+"the checks. Otherwise, remove %s from the remote system before creating this "
+"one."
+msgstr ""
+"Номера който се опитвате да използвате, %s, в момента е настроен в един от "
+"DUNDi маршрутите които сте конфигурирали. Като резултат вие не можете да "
+"използвате номера в тази система. Дори конфигурацията на маршрута да не "
+"съвпада с този номер вие все пак ще бъдете блокирани от създаването му. Ако "
+"това не е грешка, тогава трябва да махнете този номер от отсрещната DUNDi "
+"настройка, забранете DUNDi външната линия в запитването, или забранете този "
+"модул за да избегнете проверките. Иначе, премахнете %s от отсрещната система "
+"преди да създадете тази."
+
+msgid "No matches found"
+msgstr "Не са намерени съвпадения"
+
+#, php-format
+msgid "Results from DUNDi trunk: %s"
+msgstr "Резултати от DUNDi външни линии: %s"
+
 msgid "Lookup Number:"
 msgstr "Търсен Номер:"
 
-#: page.dundicheck.php:55
 msgid "Lookup Another Number:"
 msgstr "Търси Друг Номер:"
 
-#: page.dundicheck.php:58
 msgid "Lookup"
 msgstr "Търси"
-
-#: module.xml
-msgid "DUNDi Lookup Registry"
-msgstr "DUNDi Търсене"
-
