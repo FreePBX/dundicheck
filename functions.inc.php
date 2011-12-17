@@ -1,4 +1,5 @@
 <?php /* $Id: page.ringgroups.php 5340 2007-12-04 19:10:53Z p_lindheimer $ */
+if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 //Copyright (C) 2008 Astrogen LLC (philippe at freepbx dot org)
 //This program is free software; you can redistribute it and/or
 //modify it under the terms of the GNU General Public License
