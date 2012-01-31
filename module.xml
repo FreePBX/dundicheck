@@ -23,6 +23,6 @@
 		<version>2.4.0</version>
 	</depends>
 	<category>Admin</category>
-	<location>release/2.10/dundicheck-2.10.0.0.tgz</location>
-	<md5sum>4bdcede8e95af48cce2ec77c652c9cec</md5sum>
+	<location>release/2.10/dundicheck-2.10.0.1.tgz</location>
+	<md5sum>caf5da4c958ca5d0ea3ff0961e609cb6</md5sum>
 </module>
