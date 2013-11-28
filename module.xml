@@ -24,4 +24,4 @@
 	<category>Admin</category>
 	<location>release/2.10/dundicheck-2.10.0.0.tgz</location>
 	<md5sum>4bdcede8e95af48cce2ec77c652c9cec</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>
