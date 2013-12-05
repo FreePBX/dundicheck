@@ -48,9 +48,9 @@ if ($extdisplay != "") {
 	<input type="hidden" name="type" value="<?php echo $type?>">
 	<table>
 		<tr>
-			<td class="label" align="right"><?php echo ($extdisplay == '')?_("Lookup Number:"):_("Lookup Another Number:")?></td>
+			<td align="right"><?php echo ($extdisplay == '')?_("Lookup Number:"):_("Lookup Another Number:")?></td>
 			<td class="type"><input name="extdisplay" type="text" size="12" value="<?php htmlspecialchars($extdisplay);?>"></td>
-			<td valign="top" class="label">
+			<td valign="top">
 				<input type="submit" class="button" value="<?php echo _("Lookup")?>">
 			</td>
 		</tr>
