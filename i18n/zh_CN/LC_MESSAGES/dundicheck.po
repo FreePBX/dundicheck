@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 17:48-0500\n"
+"POT-Creation-Date: 2015-02-20 19:26-0500\n"
 "PO-Revision-Date: 2009-02-01 14:46+0800\n"
 "Last-Translator: 周征晟 <zhougongjizhe@163.com>\n"
 "Language-Team: EdwardBadBoy <zhougongjizhe@163.com>\n"
@@ -18,42 +18,50 @@ msgstr ""
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:11
+#: dundicheck.i18n.php:4
+msgid "Admin"
+msgstr ""
+
+#: page.dundicheck.php:11
 #, php-format
 msgid "DUNDi Information: %s"
 msgstr "DUNDi信息：%s"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:32
+#: dundicheck.i18n.php:8 page.dundicheck.php:32
 #, php-format
 msgid "DUNDi Lookup"
 msgstr "DUNDi查询"
 
-#: /usr/src/freepbx/dundicheck/functions.inc.php:57
+#: dundicheck.i18n.php:3
+msgid "DUNDi Lookup Registry"
+msgstr ""
+
+#: functions.inc.php:57
 msgid "DUNDi: "
 msgstr "DUNDi："
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:44
+#: page.dundicheck.php:44
 msgid "Lookup"
 msgstr "查询"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:41
+#: page.dundicheck.php:41
 msgid "Lookup Another Number:"
 msgstr "查询另一个号码："
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:41
+#: page.dundicheck.php:41
 msgid "Lookup Number:"
 msgstr "查询号码："
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:17
+#: page.dundicheck.php:17
 msgid "No matches found"
 msgstr "未找到匹配项"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:20
+#: page.dundicheck.php:20
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "从DUNDi中继上获取的结果：%s"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:13
+#: page.dundicheck.php:13
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -70,3 +78,12 @@ msgstr ""
 "这不是一个错误，那么你需要取消在你的远程DUNDi设置中对此号码的发布，禁用那个"
 "DUNDi中继，或者禁用此模块以避开检查。否则，你需要在创建这个号码之前从远程系统"
 "中移除%s。"
+
+#: dundicheck.i18n.php:5
+msgid ""
+"This module will check all configured and enabled DUNDi trunks as part of "
+"the extension registry function, and report back conflicts if\n"
+"\t\tother sites have the same extensions. This does not filter against the "
+"route patterns - it will take any number being created and\n"
+"\t\treport a conflict if that trunk could be used to call that number."
+msgstr ""

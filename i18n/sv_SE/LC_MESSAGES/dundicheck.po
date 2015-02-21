@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX dundicheck\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 17:48-0500\n"
+"POT-Creation-Date: 2015-02-20 19:26-0500\n"
 "PO-Revision-Date: 2008-09-28 12:10+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
@@ -17,42 +17,50 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:11
+#: dundicheck.i18n.php:4
+msgid "Admin"
+msgstr ""
+
+#: page.dundicheck.php:11
 #, php-format
 msgid "DUNDi Information: %s"
 msgstr "DUNDIi information: %s"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:32
+#: dundicheck.i18n.php:8 page.dundicheck.php:32
 #, php-format
 msgid "DUNDi Lookup"
 msgstr "DUNDi-uppslag"
 
-#: /usr/src/freepbx/dundicheck/functions.inc.php:57
+#: dundicheck.i18n.php:3
+msgid "DUNDi Lookup Registry"
+msgstr ""
+
+#: functions.inc.php:57
 msgid "DUNDi: "
 msgstr "DUNDi:"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:44
+#: page.dundicheck.php:44
 msgid "Lookup"
 msgstr "Slå upp"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:41
+#: page.dundicheck.php:41
 msgid "Lookup Another Number:"
 msgstr "Slå upp ett annat nummer:"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:41
+#: page.dundicheck.php:41
 msgid "Lookup Number:"
 msgstr "Slå upp nummer:"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:17
+#: page.dundicheck.php:17
 msgid "No matches found"
 msgstr "Inga resultat"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:20
+#: page.dundicheck.php:20
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "Resultat från DUNDi-trunk: %s"
 
-#: /usr/src/freepbx/dundicheck/page.dundicheck.php:13
+#: page.dundicheck.php:13
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -71,3 +79,12 @@ msgstr ""
 "från din fjärr-DUNDi, avaktivera trunken i fråga eller avaktivera denna "
 "modul för att undvika kontrollen. Annars tar du bort %s från ditt "
 "fjärrsystem innan du skapar det här."
+
+#: dundicheck.i18n.php:5
+msgid ""
+"This module will check all configured and enabled DUNDi trunks as part of "
+"the extension registry function, and report back conflicts if\n"
+"\t\tother sites have the same extensions. This does not filter against the "
+"route patterns - it will take any number being created and\n"
+"\t\treport a conflict if that trunk could be used to call that number."
+msgstr ""
