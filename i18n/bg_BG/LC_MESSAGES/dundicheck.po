@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: FreePBX v2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2015-03-11 21:26+0200\n"
+"PO-Revision-Date: 2015-03-11 21:27+0200\n"
 "Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
 "Language-Team: Bulgarian "
 "<http://weblate.freepbx.org/projects/freepbx/dundicheck/bg_BG/>\n"
@@ -42,7 +42,7 @@ msgstr "DUNDi Търсене"
 
 #: functions.inc.php:57
 msgid "DUNDi: "
-msgstr "DUNDi: "
+msgstr "DUNDI: "
 
 #: page.dundicheck.php:44
 msgid "Lookup"
