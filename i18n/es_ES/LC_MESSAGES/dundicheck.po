@@ -3,19 +3,23 @@ msgstr ""
 "Project-Id-Version: FreePBX - módulo dundicheck module spanish translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2009-01-22 01:15+0100\n"
-"Last-Translator: Juan Asensio Sánchez <okelet@gmail.com>\n"
-"Language-Team: Juan Asensio Sánchez <okelet@gmail.com>\n"
+"PO-Revision-Date: 2015-03-23 01:22+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/dundicheck/es_ES/>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: dundicheck.i18n.php:4
 msgid "Admin"
-msgstr ""
+msgstr "Administración"
 
 #: page.dundicheck.php:11
 #, php-format
@@ -25,36 +29,36 @@ msgstr "Información de DUNDi: %s"
 #: dundicheck.i18n.php:8 page.dundicheck.php:32
 #, php-format
 msgid "DUNDi Lookup"
-msgstr ""
+msgstr "Buscar DUNDi"
 
 #: dundicheck.i18n.php:3
 msgid "DUNDi Lookup Registry"
-msgstr ""
+msgstr "Buscar DUNDi Registry"
 
 #: functions.inc.php:57
 msgid "DUNDi: "
-msgstr "DUNDi:"
+msgstr "DUNDi : "
 
 #: page.dundicheck.php:44
 msgid "Lookup"
-msgstr ""
+msgstr "Buscar"
 
 #: page.dundicheck.php:41
 msgid "Lookup Another Number:"
-msgstr ""
+msgstr "Buscar otro numero:"
 
 #: page.dundicheck.php:41
 msgid "Lookup Number:"
-msgstr ""
+msgstr "Buscar Numero:"
 
 #: page.dundicheck.php:17
 msgid "No matches found"
-msgstr ""
+msgstr "No se encontró"
 
 #: page.dundicheck.php:20
 #, php-format
 msgid "Results from DUNDi trunk: %s"
-msgstr ""
+msgstr "Resultados de Troncal DUNDi: %s"
 
 #: page.dundicheck.php:13
 #, php-format
@@ -68,6 +72,15 @@ msgid ""
 "the checks. Otherwise, remove %s from the remote system before creating this "
 "one."
 msgstr ""
+"El número al que está intentando utilizar, %s, está disponible actualmente "
+"en una de las rutas DUNDi que configurada en su sistema. Como resultado, "
+"usted no puede utilizar este número en este sistema. Incluso si la "
+"configuración de la ruta no pasa este número usted todavía será bloqueado "
+"desde su creación. Si esto no es un error, entonces usted tendrá que anular "
+"la publicación de este número en su configuración remota DUNDi, deshabilite "
+"el tronco DUNDi en cuestión, o desactivar este módulo para evitar los "
+"controles. De lo contrario, eliminar %s desde el sistema remoto antes de "
+"crear éste."
 
 #: dundicheck.i18n.php:5
 msgid ""
@@ -77,3 +90,10 @@ msgid ""
 "route patterns - it will take any number being created and\n"
 "\t\treport a conflict if that trunk could be used to call that number."
 msgstr ""
+"Este módulo comprobará todos los troncales DUNDi  configurados y habilitados "
+"como parte de la función de registro de extensión, e informar conflictos si↵"
+"\n"
+"→→ otros sitios tienen las mismas extensiones. Esto no filtra contra de los "
+"patrones de ruta - que tomará cualquier número que se está creando y↵\n"
+"→→ reportar un conflicto si ese tronco podría ser utilizado para llamar a "
+"ese número."
