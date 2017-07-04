@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2017-07-04 09:23+0200\n"
+"PO-Revision-Date: 2017-07-04 09:25+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/dundicheck/vi/>\n"
@@ -41,7 +41,7 @@ msgstr "Đăng ký tra cứu DUNDi"
 
 #: functions.inc.php:57
 msgid "DUNDi: "
-msgstr "DUNDi: "
+msgstr "Giao thức DUNDi: "
 
 #: page.dundicheck.php:44
 msgid "Lookup"
@@ -76,13 +76,13 @@ msgid ""
 "the checks. Otherwise, remove %s from the remote system before creating this "
 "one."
 msgstr ""
-"Số bạn đang sử dụng, % s, đang khả dụng tại một trong những tuyến DUNDi mà "
+"Số bạn đang sử dụng, %s, đang khả dụng tại một trong những tuyến DUNDi mà "
 "bạn đã cấu hình trên hệ thống. Điều này khiến bạn không thể sử dụng số này "
 "trên hệ thống này. Ngay cả khi cấu hình tuyến đường không duyệt con số này, "
 "bạn vẫn sẽ bị chặn không cho tạo ra nó. Nếu đây không phải là lỗi, thì bạn "
 "sẽ phải hủy xuất bản số này trên thiết lập DUNDi từ xa của bạn, vô hiệu "
 "trung kế DUNDi, hoặc vô hiệu module này để tránh các kiểm tra. Nếu không, "
-"hãy xóa % s khỏi hệ thống từ xa trước khi tạo ra nó."
+"hãy xóa %s khỏi hệ thống từ xa trước khi tạo ra nó."
 
 #: dundicheck.i18n.php:5
 msgid ""
