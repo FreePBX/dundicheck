@@ -3,18 +3,21 @@ msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Francesco Romano <francesco.romano@alteclab.it>\n"
-"Language-Team: Italian\n"
+"PO-Revision-Date: 2018-05-29 09:36+0000\n"
+"Last-Translator: Stell0 <stefano.fancello@nethesis.it>\n"
+"Language-Team: Italian <http://*/projects/freepbx/dundicheck/it/>\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19.1\n"
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
 
 #: dundicheck.i18n.php:4
 msgid "Admin"
-msgstr ""
+msgstr "Amministratore"
 
 #: page.dundicheck.php:11
 #, php-format
@@ -28,7 +31,7 @@ msgstr "Ricerca DUNDi"
 
 #: dundicheck.i18n.php:3
 msgid "DUNDi Lookup Registry"
-msgstr ""
+msgstr "Registro di ricerca DUNDi"
 
 #: functions.inc.php:57
 msgid "DUNDi: "
@@ -85,3 +88,9 @@ msgid ""
 "route patterns - it will take any number being created and\n"
 "\t\treport a conflict if that trunk could be used to call that number."
 msgstr ""
+"Questo modulo controllerà tutti i trunk DUNDi configurati e abilitati come "
+"parte della funzione del registro di estensione e segnalerà i conflitti se\n"
+"altri siti hanno le stesse estensioni. Questo non filtra in base ai modelli "
+"di percorso: prenderà qualsiasi numero in fase di creazione e\n"
+"segnalare un conflitto se tale trunk potrebbe essere utilizzato per chiamare "
+"quel numero."
