@@ -10,16 +10,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2017-01-16 15:00+0200\n"
-"Last-Translator: Sven <spiderrs4@web.de>\n"
-"Language-Team: German "
-"<http://weblate.freepbx.org/projects/freepbx/dundicheck/de_DE/>\n"
+"PO-Revision-Date: 2018-07-18 19:15+0000\n"
+"Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
+"Language-Team: German <http://*/projects/freepbx/dundicheck/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.4\n"
+"X-Generator: Weblate 2.19.1\n"
 
 #: dundicheck.i18n.php:4
 msgid "Admin"
@@ -28,7 +27,7 @@ msgstr "Administrator"
 #: page.dundicheck.php:11
 #, php-format
 msgid "DUNDi Information: %s"
-msgstr ""
+msgstr "DUNDI-Information: %s"
 
 #: dundicheck.i18n.php:8 page.dundicheck.php:32
 #, php-format
@@ -57,12 +56,12 @@ msgstr ""
 
 #: page.dundicheck.php:17
 msgid "No matches found"
-msgstr ""
+msgstr "Keine Übereinstimmungen gefunden"
 
 #: page.dundicheck.php:20
 #, php-format
 msgid "Results from DUNDi trunk: %s"
-msgstr ""
+msgstr "Ergebnisse von der DUNDi-Hauptleitung: %s"
 
 #: page.dundicheck.php:13
 #, php-format
