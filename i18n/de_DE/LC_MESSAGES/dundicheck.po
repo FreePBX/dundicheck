@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2018-10-17 15:00+0000\n"
-"Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
+"PO-Revision-Date: 2020-02-04 17:00+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
 "Language-Team: German <http://*/projects/freepbx/dundicheck/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -32,11 +32,11 @@ msgstr "DUNDI-Information: %s"
 #: dundicheck.i18n.php:8 page.dundicheck.php:32
 #, php-format
 msgid "DUNDi Lookup"
-msgstr ""
+msgstr "DUNDi Suche"
 
 #: dundicheck.i18n.php:3
 msgid "DUNDi Lookup Registry"
-msgstr ""
+msgstr "DUNDi Suchregister"
 
 #: functions.inc.php:57
 msgid "DUNDi: "
@@ -48,11 +48,11 @@ msgstr ""
 
 #: page.dundicheck.php:41
 msgid "Lookup Another Number:"
-msgstr ""
+msgstr "Andere Nummer suchen:"
 
 #: page.dundicheck.php:41
 msgid "Lookup Number:"
-msgstr ""
+msgstr "Nummer suchen:"
 
 #: page.dundicheck.php:17
 msgid "No matches found"
@@ -93,3 +93,9 @@ msgid ""
 "route patterns - it will take any number being created and\n"
 "\t\treport a conflict if that trunk could be used to call that number."
 msgstr ""
+"Dieses Modul überprüft alle konfigurierten und aktivierten DUNDi-Trunks als "
+"Teil der Nebenstellenregistrierungsfunktion und meldet Konflikte, wenn\n"
+"andere Sites die gleichen Nebenstellen haben. Dies filtert nicht nach den "
+"Routenmustern - es wird eine beliebige Nummer erstellt und\n"
+"einen Konflikt gemeldet, wenn dieser Trunk zum Anrufen dieser Nummer "
+"verwendet werden kann."
