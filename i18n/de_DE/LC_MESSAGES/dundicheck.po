@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2020-02-04 17:00+0000\n"
+"PO-Revision-Date: 2020-02-11 09:31+0000\n"
 "Last-Translator: florian alberts <alberts@ar-systems.de>\n"
 "Language-Team: German <http://*/projects/freepbx/dundicheck/de/>\n"
 "Language: de_DE\n"
@@ -40,11 +40,11 @@ msgstr "DUNDi Suchregister"
 
 #: functions.inc.php:57
 msgid "DUNDi: "
-msgstr ""
+msgstr "DUNDi: "
 
 #: page.dundicheck.php:44
 msgid "Lookup"
-msgstr ""
+msgstr "Suche"
 
 #: page.dundicheck.php:41
 msgid "Lookup Another Number:"
