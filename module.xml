@@ -2,19 +2,12 @@
 	<rawname>dundicheck</rawname>
 	<repo>unsupported</repo>
 	<name>DUNDi Lookup Registry</name>
-	<version>13.0.2</version>
+	<version>16.0.1</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<changelog>
-		*13.0.2* Version bump Beta
-		*2.11.0.3* Include license file
-		*2.11.0.1* Label class can not be used in FreePBX 2.10
-		*2.11.0.0* bump version
-		*2.10.0.1* #5478 
-		*2.10.0.0* new version changes
-		*2.9.0.1* set repo
-		*2.9.0.0* 2.9 Update
+		*16.0.1* 16.0 release
 	</changelog>
 	<description>
 		This module will check all configured and enabled DUNDi trunks as part of the extension registry function, and report back conflicts if
@@ -25,10 +18,10 @@
 		<dundicheck>DUNDi Lookup</dundicheck>
 	</menuitems>
 	<depends>
-		<version>2.4.0</version>
+		<version>16.0</version>
 	</depends>
 	<supported>
-		<version>2.10</version>
+		<version>16.0</version>
 	</supported>
 	<category>Admin</category>
 	<location>release/2.11/dundicheck-2.11.0.0.tgz</location>
