@@ -1,62 +1,68 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for dundicheck
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.5\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2018-05-29 09:36+0000\n"
-"Last-Translator: Stell0 <stefano.fancello@nethesis.it>\n"
-"Language-Team: Italian <http://*/projects/freepbx/dundicheck/it/>\n"
-"Language: it_IT\n"
+"PO-Revision-Date: 2016-01-22 07:56+0200\n"
+"Last-Translator: Nicolas <forums@riendeau.org>\n"
+"Language-Team: French "
+"<http://weblate.freepbx.org/projects/freepbx/dundicheck/fr_FR/>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19.1\n"
-"X-Poedit-Language: Italian\n"
-"X-Poedit-Country: ITALY\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: dundicheck.i18n.php:4
 msgid "Admin"
-msgstr "Amministratore"
+msgstr "Admin"
 
 #: page.dundicheck.php:11
 #, php-format
 msgid "DUNDi Information: %s"
-msgstr "Informazioni DUNDi: %s"
+msgstr "Information DUNDi : %s"
 
 #: dundicheck.i18n.php:8 page.dundicheck.php:32
 #, php-format
 msgid "DUNDi Lookup"
-msgstr "Ricerca DUNDi"
+msgstr ""
 
 #: dundicheck.i18n.php:3
 msgid "DUNDi Lookup Registry"
-msgstr "Registro di ricerca DUNDi"
+msgstr ""
 
 #: functions.inc.php:57
 msgid "DUNDi: "
-msgstr "DUNDi: "
+msgstr ""
 
 #: page.dundicheck.php:44
 msgid "Lookup"
-msgstr "Trova"
+msgstr ""
 
 #: page.dundicheck.php:41
 msgid "Lookup Another Number:"
-msgstr "Trova un altro numero:"
+msgstr ""
 
 #: page.dundicheck.php:41
 msgid "Lookup Number:"
-msgstr "Numero da trovare:"
+msgstr ""
 
 #: page.dundicheck.php:17
 msgid "No matches found"
-msgstr "Nessun risultato trovato"
+msgstr ""
 
 #: page.dundicheck.php:20
 #, php-format
 msgid "Results from DUNDi trunk: %s"
-msgstr "Risultati dal fascio DUNDi: %s"
+msgstr ""
 
 #: page.dundicheck.php:13
 #, php-format
@@ -70,15 +76,6 @@ msgid ""
 "the checks. Otherwise, remove %s from the remote system before creating this "
 "one."
 msgstr ""
-"La numerazione che stai cercando di usare, %s, è resa disponibile da una "
-"delle rotte DUNDi che sono state configurate nel sistema. Quindi questo "
-"numerazione non può essere utilizzata su questo sistema. Anche se la "
-"configurazione della rotta non passa questa numerazione, sarà impedita la "
-"creazione. Se questo non è un errore, devi rimuovere la pubblicazione di "
-"questa numerazione dall'impostazione remota DUNDi, disattivare il fascio "
-"DUNDi in questione, o disattivare questo modulo per evitare i controlli. "
-"Altrimenti, rimuovi %s dal sistema remoto prima di creare questa nuova "
-"numerazione."
 
 #: dundicheck.i18n.php:5
 msgid ""
@@ -88,9 +85,3 @@ msgid ""
 "route patterns - it will take any number being created and\n"
 "\t\treport a conflict if that trunk could be used to call that number."
 msgstr ""
-"Questo modulo controllerà tutti i trunk DUNDi configurati e abilitati come "
-"parte della funzione del registro di estensione e segnalerà i conflitti se\n"
-"altri siti hanno le stesse estensioni. Questo non filtra in base ai modelli "
-"di percorso: prenderà qualsiasi numero in fase di creazione e\n"
-"segnalare un conflitto se tale trunk potrebbe essere utilizzato per chiamare "
-"quel numero."

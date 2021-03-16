@@ -1,37 +1,43 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for dundicheck
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.5\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:26-0500\n"
-"PO-Revision-Date: 2018-05-29 09:36+0000\n"
-"Last-Translator: Stell0 <stefano.fancello@nethesis.it>\n"
-"Language-Team: Italian <http://*/projects/freepbx/dundicheck/it/>\n"
-"Language: it_IT\n"
+"PO-Revision-Date: 2016-12-12 23:09+0200\n"
+"Last-Translator: Alexander <alexander.schley@paranagua.pr.gov.br>\n"
+"Language-Team: Portuguese (Brazil) "
+"<http://weblate.freepbx.org/projects/freepbx/dundicheck/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19.1\n"
-"X-Poedit-Language: Italian\n"
-"X-Poedit-Country: ITALY\n"
+"X-Generator: Weblate 2.4\n"
 
 #: dundicheck.i18n.php:4
 msgid "Admin"
-msgstr "Amministratore"
+msgstr "Administrador"
 
 #: page.dundicheck.php:11
 #, php-format
 msgid "DUNDi Information: %s"
-msgstr "Informazioni DUNDi: %s"
+msgstr "Informação de DUNDi: %s"
 
 #: dundicheck.i18n.php:8 page.dundicheck.php:32
 #, php-format
 msgid "DUNDi Lookup"
-msgstr "Ricerca DUNDi"
+msgstr "Pesquisar DUNDi"
 
 #: dundicheck.i18n.php:3
 msgid "DUNDi Lookup Registry"
-msgstr "Registro di ricerca DUNDi"
+msgstr "Pesquisar Registro DUNDi"
 
 #: functions.inc.php:57
 msgid "DUNDi: "
@@ -39,24 +45,24 @@ msgstr "DUNDi: "
 
 #: page.dundicheck.php:44
 msgid "Lookup"
-msgstr "Trova"
+msgstr "Pesquisar"
 
 #: page.dundicheck.php:41
 msgid "Lookup Another Number:"
-msgstr "Trova un altro numero:"
+msgstr "Pesquisar Outro Número:"
 
 #: page.dundicheck.php:41
 msgid "Lookup Number:"
-msgstr "Numero da trovare:"
+msgstr "Pesquisar Número:"
 
 #: page.dundicheck.php:17
 msgid "No matches found"
-msgstr "Nessun risultato trovato"
+msgstr "Nenhuma correspondência encontrada"
 
 #: page.dundicheck.php:20
 #, php-format
 msgid "Results from DUNDi trunk: %s"
-msgstr "Risultati dal fascio DUNDi: %s"
+msgstr "Resultados de tronco DUNDi: %s"
 
 #: page.dundicheck.php:13
 #, php-format
@@ -70,15 +76,14 @@ msgid ""
 "the checks. Otherwise, remove %s from the remote system before creating this "
 "one."
 msgstr ""
-"La numerazione che stai cercando di usare, %s, è resa disponibile da una "
-"delle rotte DUNDi che sono state configurate nel sistema. Quindi questo "
-"numerazione non può essere utilizzata su questo sistema. Anche se la "
-"configurazione della rotta non passa questa numerazione, sarà impedita la "
-"creazione. Se questo non è un errore, devi rimuovere la pubblicazione di "
-"questa numerazione dall'impostazione remota DUNDi, disattivare il fascio "
-"DUNDi in questione, o disattivare questo modulo per evitare i controlli. "
-"Altrimenti, rimuovi %s dal sistema remoto prima di creare questa nuova "
-"numerazione."
+"O número que está tentando utilizar, %s, está atualmente disponível a partir "
+"de uma das rotas DUNDi configuradas no seu sistema. Como resultado, você não "
+"pode usar esse número neste sistema. Mesmo se a configuração de rota não "
+"passar esse número, você ainda será impedido de criá-lo. Se isso não for um "
+"erro, então você terá que anular a publicação desse número em sua "
+"configuração DUNDi remota, desabilitar o tronco DUNDi em questão ou "
+"desabilitar este módulo para evitar as verificações. Caso contrário, remova %"
+"s do sistema remoto antes de criar."
 
 #: dundicheck.i18n.php:5
 msgid ""
@@ -88,9 +93,9 @@ msgid ""
 "route patterns - it will take any number being created and\n"
 "\t\treport a conflict if that trunk could be used to call that number."
 msgstr ""
-"Questo modulo controllerà tutti i trunk DUNDi configurati e abilitati come "
-"parte della funzione del registro di estensione e segnalerà i conflitti se\n"
-"altri siti hanno le stesse estensioni. Questo non filtra in base ai modelli "
-"di percorso: prenderà qualsiasi numero in fase di creazione e\n"
-"segnalare un conflitto se tale trunk potrebbe essere utilizzato per chiamare "
-"quel numero."
+"Este módulo verificará todos os troncos DUNDi configurados e habilitados "
+"como parte da função de registro de ramal e relatará conflitos\n"
+"\t\t se outros sites tiverem os mesmos ramais. Isso não filtra contra os "
+"padrões de rota - ele terá qualquer número que estiver sendo criado\n"
+"\t\t e relatará um conflito se esse tronco puder ser usado para chamar esse "
+"número."
