@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:26-0500\n"
+"POT-Creation-Date: 2021-03-16 12:23+0000\n"
 "PO-Revision-Date: 2019-01-25 13:40+0000\n"
 "Last-Translator: Media Mousavi <mousavi.media@gmail.com>\n"
 "Language-Team: Persian <http://*/projects/freepbx/dundicheck/fa/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.0.1\n"
 
-#: dundicheck.i18n.php:4
+#: dundicheck.i18n.php:6
 msgid "Admin"
 msgstr "مدیر"
 
@@ -29,12 +29,11 @@ msgstr "مدیر"
 msgid "DUNDi Information: %s"
 msgstr "اطلاعات DUNDi: %s"
 
-#: dundicheck.i18n.php:8 page.dundicheck.php:32
-#, php-format
+#: dundicheck.i18n.php:10 page.dundicheck.php:35
 msgid "DUNDi Lookup"
 msgstr "جستجو DUNDi"
 
-#: dundicheck.i18n.php:3
+#: dundicheck.i18n.php:4
 msgid "DUNDi Lookup Registry"
 msgstr "ثبت جستجو DUNDi"
 
@@ -42,28 +41,32 @@ msgstr "ثبت جستجو DUNDi"
 msgid "DUNDi: "
 msgstr "DUNDi:. "
 
-#: page.dundicheck.php:44
+#: page.dundicheck.php:69
+msgid "Enter the number to query against configured DUNDI sources"
+msgstr ""
+
+#: page.dundicheck.php:74
 msgid "Lookup"
 msgstr "جستجو"
 
-#: page.dundicheck.php:41
-msgid "Lookup Another Number:"
-msgstr "جستجو شماره دیگر:"
+#: page.dundicheck.php:57
+msgid "Lookup Another Number"
+msgstr ""
 
-#: page.dundicheck.php:41
-msgid "Lookup Number:"
-msgstr "جستجو شماره:"
+#: page.dundicheck.php:57
+msgid "Lookup Number"
+msgstr ""
 
-#: page.dundicheck.php:17
+#: page.dundicheck.php:20
 msgid "No matches found"
 msgstr "موردی یافت نشد"
 
-#: page.dundicheck.php:20
+#: page.dundicheck.php:25
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "نتایجی از ترانک DUNDi: %s"
 
-#: page.dundicheck.php:13
+#: page.dundicheck.php:14
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -84,16 +87,30 @@ msgstr ""
 "the checks. Otherwise, remove %s from the remote system before creating this "
 "one."
 
-#: dundicheck.i18n.php:5
+#: dundicheck.i18n.php:8
 msgid ""
 "This module will check all configured and enabled DUNDi trunks as part of "
-"the extension registry function, and report back conflicts if\n"
-"\t\tother sites have the same extensions. This does not filter against the "
-"route patterns - it will take any number being created and\n"
-"\t\treport a conflict if that trunk could be used to call that number."
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
 msgstr ""
-"This module will check all configured and  enabled DUNDi trunks as part of "
-"the extension registry function, and report back conflicts if\n"
-"\t\tother sites have the same extensions. This does not filter against the "
-"route patterns - it will take any number being created and\n"
-"\t\treport a conflict if that trunk could be used to call that number."
+
+#~ msgid "Lookup Another Number:"
+#~ msgstr "جستجو شماره دیگر:"
+
+#~ msgid "Lookup Number:"
+#~ msgstr "جستجو شماره:"
+
+#~ msgid ""
+#~ "This module will check all configured and enabled DUNDi trunks as part of "
+#~ "the extension registry function, and report back conflicts if\n"
+#~ "\t\tother sites have the same extensions. This does not filter against "
+#~ "the route patterns - it will take any number being created and\n"
+#~ "\t\treport a conflict if that trunk could be used to call that number."
+#~ msgstr ""
+#~ "This module will check all configured and  enabled DUNDi trunks as part "
+#~ "of the extension registry function, and report back conflicts if\n"
+#~ "\t\tother sites have the same extensions. This does not filter against "
+#~ "the route patterns - it will take any number being created and\n"
+#~ "\t\treport a conflict if that trunk could be used to call that number."

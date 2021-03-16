@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:26-0500\n"
+"POT-Creation-Date: 2021-03-16 12:23+0000\n"
 "PO-Revision-Date: 2017-07-20 13:07+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
-"Language-Team: Vietnamese "
-"<http://weblate.freepbx.org/projects/freepbx/dundicheck/vi/>\n"
+"Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
+"dundicheck/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: dundicheck.i18n.php:4
+#: dundicheck.i18n.php:6
 msgid "Admin"
 msgstr "Quản trị viên"
 
@@ -30,12 +30,11 @@ msgstr "Quản trị viên"
 msgid "DUNDi Information: %s"
 msgstr "Thông tin DUNDi: %s"
 
-#: dundicheck.i18n.php:8 page.dundicheck.php:32
-#, php-format
+#: dundicheck.i18n.php:10 page.dundicheck.php:35
 msgid "DUNDi Lookup"
 msgstr "Tra cứu DUNDi"
 
-#: dundicheck.i18n.php:3
+#: dundicheck.i18n.php:4
 msgid "DUNDi Lookup Registry"
 msgstr "Đăng ký tra cứu DUNDi"
 
@@ -43,28 +42,32 @@ msgstr "Đăng ký tra cứu DUNDi"
 msgid "DUNDi: "
 msgstr "Giao thức DUNDi: "
 
-#: page.dundicheck.php:44
+#: page.dundicheck.php:69
+msgid "Enter the number to query against configured DUNDI sources"
+msgstr ""
+
+#: page.dundicheck.php:74
 msgid "Lookup"
 msgstr "Tra cứu"
 
-#: page.dundicheck.php:41
-msgid "Lookup Another Number:"
-msgstr "Tra cứu một số khác:"
+#: page.dundicheck.php:57
+msgid "Lookup Another Number"
+msgstr ""
 
-#: page.dundicheck.php:41
-msgid "Lookup Number:"
-msgstr "Tra cứu số:"
+#: page.dundicheck.php:57
+msgid "Lookup Number"
+msgstr ""
 
-#: page.dundicheck.php:17
+#: page.dundicheck.php:20
 msgid "No matches found"
 msgstr "Không tìm thấy kết quả nào phù hợp"
 
-#: page.dundicheck.php:20
+#: page.dundicheck.php:25
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "Kết quả từ trung kế DUNDi: %s"
 
-#: page.dundicheck.php:13
+#: page.dundicheck.php:14
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -84,16 +87,30 @@ msgstr ""
 "trung kế DUNDi, hoặc vô hiệu module này để tránh các đánh dấu Check. Nếu "
 "không, hãy xóa %s khỏi hệ thống từ xa trước khi tạo ra nó."
 
-#: dundicheck.i18n.php:5
+#: dundicheck.i18n.php:8
 msgid ""
 "This module will check all configured and enabled DUNDi trunks as part of "
-"the extension registry function, and report back conflicts if\n"
-"\t\tother sites have the same extensions. This does not filter against the "
-"route patterns - it will take any number being created and\n"
-"\t\treport a conflict if that trunk could be used to call that number."
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
 msgstr ""
-"Mô đun này sẽ kiểm tra tất cả các trung kế đã được cấu hình và kích hoạt như "
-"một phần của chức năng đăng ký máy nhánh, và báo cáo các xung đột nếu các "
-"site khác có cùng các máy nhánh. Điều này không lọc theo các mẫu số ( "
-"Pattern) của tuyến mà nó sẽ lấy bất kỳ số nào đang được tạo và báo cáo một "
-"xung đột nếu trung kế đó có thể sử dụng cho cuộc gọi của số đó."
+
+#~ msgid "Lookup Another Number:"
+#~ msgstr "Tra cứu một số khác:"
+
+#~ msgid "Lookup Number:"
+#~ msgstr "Tra cứu số:"
+
+#~ msgid ""
+#~ "This module will check all configured and enabled DUNDi trunks as part of "
+#~ "the extension registry function, and report back conflicts if\n"
+#~ "\t\tother sites have the same extensions. This does not filter against "
+#~ "the route patterns - it will take any number being created and\n"
+#~ "\t\treport a conflict if that trunk could be used to call that number."
+#~ msgstr ""
+#~ "Mô đun này sẽ kiểm tra tất cả các trung kế đã được cấu hình và kích hoạt "
+#~ "như một phần của chức năng đăng ký máy nhánh, và báo cáo các xung đột nếu "
+#~ "các site khác có cùng các máy nhánh. Điều này không lọc theo các mẫu số "
+#~ "( Pattern) của tuyến mà nó sẽ lấy bất kỳ số nào đang được tạo và báo cáo "
+#~ "một xung đột nếu trung kế đó có thể sử dụng cho cuộc gọi của số đó."

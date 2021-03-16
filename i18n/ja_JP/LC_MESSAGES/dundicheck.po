@@ -37,17 +37,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:26-0500\n"
+"POT-Creation-Date: 2021-03-16 12:23+0000\n"
 "PO-Revision-Date: 2013-11-07 13:01+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: Japanese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: Japanese\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#: dundicheck.i18n.php:4
+#: dundicheck.i18n.php:6
 msgid "Admin"
 msgstr "アドミン"
 
@@ -56,12 +56,11 @@ msgstr "アドミン"
 msgid "DUNDi Information: %s"
 msgstr "DUNDi 情報： %s"
 
-#: dundicheck.i18n.php:8 page.dundicheck.php:32
-#, php-format
+#: dundicheck.i18n.php:10 page.dundicheck.php:35
 msgid "DUNDi Lookup"
 msgstr "DUNDi 検索"
 
-#: dundicheck.i18n.php:3
+#: dundicheck.i18n.php:4
 msgid "DUNDi Lookup Registry"
 msgstr "DUNDi 検索登録"
 
@@ -69,28 +68,32 @@ msgstr "DUNDi 検索登録"
 msgid "DUNDi: "
 msgstr "DUNDi:"
 
-#: page.dundicheck.php:44
+#: page.dundicheck.php:69
+msgid "Enter the number to query against configured DUNDI sources"
+msgstr ""
+
+#: page.dundicheck.php:74
 msgid "Lookup"
 msgstr "検索"
 
-#: page.dundicheck.php:41
-msgid "Lookup Another Number:"
-msgstr "他の番号を検索："
+#: page.dundicheck.php:57
+msgid "Lookup Another Number"
+msgstr ""
 
-#: page.dundicheck.php:41
-msgid "Lookup Number:"
-msgstr "番号検索："
+#: page.dundicheck.php:57
+msgid "Lookup Number"
+msgstr ""
 
-#: page.dundicheck.php:17
+#: page.dundicheck.php:20
 msgid "No matches found"
 msgstr "一致するものがみつかりません"
 
-#: page.dundicheck.php:20
+#: page.dundicheck.php:25
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "DUNDiトランクからの結果： %s"
 
-#: page.dundicheck.php:13
+#: page.dundicheck.php:14
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -110,23 +113,21 @@ msgstr ""
 "します。それ以外の方法では、作成する前にリモートシステムから %s を削除してく"
 "ださい。"
 
-#: dundicheck.i18n.php:5
+#: dundicheck.i18n.php:8
 msgid ""
 "This module will check all configured and enabled DUNDi trunks as part of "
-"the extension registry function, and report back conflicts if\n"
-"\t\tother sites have the same extensions. This does not filter against the "
-"route patterns - it will take any number being created and\n"
-"\t\treport a conflict if that trunk could be used to call that number."
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
 msgstr ""
+"モジュールは内線登録の機能として全て設定され、有効になったDUNDiトランクを"
+"チェックします。他のサイトも同じ内線がある場合、競合報告をします。これはルー"
+"トパターンを応じるのではなく、作成された番号が適当に取られます。その番号はト"
+"ランクでかけれるのであれば、競合報告をします。"
 
-#~ msgid ""
-#~ "This module will check all configured and enabled DUNDi trunks as part of "
-#~ "the extension registry function, and report back conflicts if\t\tother "
-#~ "sites have the same extensions. This does not filter against the route "
-#~ "patterns - it will take any number being created and\t\treport a conflict "
-#~ "if that trunk could be used to call that number."
-#~ msgstr ""
-#~ "モジュールは内線登録の機能として全て設定され、有効になったDUNDiトランクを"
-#~ "チェックします。他のサイトも同じ内線がある場合、競合報告をします。これは"
-#~ "ルートパターンを応じるのではなく、作成された番号が適当に取られます。その番"
-#~ "号はトランクでかけれるのであれば、競合報告をします。"
+#~ msgid "Lookup Another Number:"
+#~ msgstr "他の番号を検索："
+
+#~ msgid "Lookup Number:"
+#~ msgstr "番号検索："

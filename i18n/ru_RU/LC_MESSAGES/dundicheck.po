@@ -2,22 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:26-0500\n"
+"POT-Creation-Date: 2021-03-16 12:23+0000\n"
 "PO-Revision-Date: 2015-05-01 22:19+0200\n"
 "Last-Translator: Yuriy <alliancesko@gmail.com>\n"
-"Language-Team: Russian "
-"<http://weblate.freepbx.org/projects/freepbx/dundicheck/ru_RU/>\n"
+"Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
+"dundicheck/ru_RU/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.2-dev\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIA\n"
 
-#: dundicheck.i18n.php:4
+#: dundicheck.i18n.php:6
 msgid "Admin"
 msgstr "Админ"
 
@@ -26,12 +26,11 @@ msgstr "Админ"
 msgid "DUNDi Information: %s"
 msgstr "Информация о DUNDi: %s"
 
-#: dundicheck.i18n.php:8 page.dundicheck.php:32
-#, php-format
+#: dundicheck.i18n.php:10 page.dundicheck.php:35
 msgid "DUNDi Lookup"
 msgstr "Поиск DUNDi"
 
-#: dundicheck.i18n.php:3
+#: dundicheck.i18n.php:4
 msgid "DUNDi Lookup Registry"
 msgstr "Реестр поиска DUNDi"
 
@@ -39,28 +38,32 @@ msgstr "Реестр поиска DUNDi"
 msgid "DUNDi: "
 msgstr "DUNDi: "
 
-#: page.dundicheck.php:44
+#: page.dundicheck.php:69
+msgid "Enter the number to query against configured DUNDI sources"
+msgstr ""
+
+#: page.dundicheck.php:74
 msgid "Lookup"
 msgstr "Поиск"
 
-#: page.dundicheck.php:41
-msgid "Lookup Another Number:"
-msgstr "Поиск другого номера:"
+#: page.dundicheck.php:57
+msgid "Lookup Another Number"
+msgstr ""
 
-#: page.dundicheck.php:41
-msgid "Lookup Number:"
-msgstr "Поиск номера:"
+#: page.dundicheck.php:57
+msgid "Lookup Number"
+msgstr ""
 
-#: page.dundicheck.php:17
+#: page.dundicheck.php:20
 msgid "No matches found"
 msgstr "Совпадений не найдено"
 
-#: page.dundicheck.php:20
+#: page.dundicheck.php:25
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "Результаты из DUNDi транка: %s"
 
-#: page.dundicheck.php:13
+#: page.dundicheck.php:14
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -82,32 +85,38 @@ msgstr ""
 "говоря, удалите номер %s с удаленной системы, перед созданием этого номера в "
 "текущей."
 
-#: dundicheck.i18n.php:5
+#: dundicheck.i18n.php:8
 msgid ""
 "This module will check all configured and enabled DUNDi trunks as part of "
-"the extension registry function, and report back conflicts if\n"
-"\t\tother sites have the same extensions. This does not filter against the "
-"route patterns - it will take any number being created and\n"
-"\t\treport a conflict if that trunk could be used to call that number."
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
 msgstr ""
-"Этот модуль будет проверять все настройки и включенные Dundi транки как "
-"часть функции регистрации номеров, и сообщать\n"
-"\t\t\t\tо конфликтах, если другие стороны имеют те же номера. Это не фильтр "
-"против шаблонов маршрутов - \n"
-"\t\t\t\tмодуль просто возьмет любой создаваемый номер и сообщит о конфликте, "
-"транк может быть использован\n"
-"\t\t\t\tдля вызова этого номера."
+"Этот модуль проверит все скнофигурированные и активированные DUNDi транкикак "
+"часть функции реестра внутренних номеров, и оповестит о конфликтах, "
+"еслидругие станции имеют такой же внутренний номер. Этот модуль не "
+"фильтруетрезультат относительно правил маршрутизации - он берет любой "
+"созданный номер исообщает о конфликет если транк может быть использован для "
+"дозвона на этотвнутренний номер"
+
+#~ msgid "Lookup Another Number:"
+#~ msgstr "Поиск другого номера:"
+
+#~ msgid "Lookup Number:"
+#~ msgstr "Поиск номера:"
 
 #~ msgid ""
 #~ "This module will check all configured and enabled DUNDi trunks as part of "
-#~ "the extension registry function, and report back conflicts if\t\tother "
-#~ "sites have the same extensions. This does not filter against the route "
-#~ "patterns - it will take any number being created and\t\treport a conflict "
-#~ "if that trunk could be used to call that number."
+#~ "the extension registry function, and report back conflicts if\n"
+#~ "\t\tother sites have the same extensions. This does not filter against "
+#~ "the route patterns - it will take any number being created and\n"
+#~ "\t\treport a conflict if that trunk could be used to call that number."
 #~ msgstr ""
-#~ "Этот модуль проверит все скнофигурированные и активированные DUNDi "
-#~ "транкикак часть функции реестра внутренних номеров, и оповестит о "
-#~ "конфликтах, еслидругие станции имеют такой же внутренний номер. Этот "
-#~ "модуль не фильтруетрезультат относительно правил маршрутизации - он берет "
-#~ "любой созданный номер исообщает о конфликет если транк может быть "
-#~ "использован для дозвона на этотвнутренний номер"
+#~ "Этот модуль будет проверять все настройки и включенные Dundi транки как "
+#~ "часть функции регистрации номеров, и сообщать\n"
+#~ "\t\t\t\tо конфликтах, если другие стороны имеют те же номера. Это не "
+#~ "фильтр против шаблонов маршрутов - \n"
+#~ "\t\t\t\tмодуль просто возьмет любой создаваемый номер и сообщит о "
+#~ "конфликте, транк может быть использован\n"
+#~ "\t\t\t\tдля вызова этого номера."

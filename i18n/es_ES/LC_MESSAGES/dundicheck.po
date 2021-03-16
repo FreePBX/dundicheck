@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX - módulo dundicheck module spanish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:26-0500\n"
+"POT-Creation-Date: 2021-03-16 12:23+0000\n"
 "PO-Revision-Date: 2015-03-23 01:22+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
-"Language-Team: Spanish "
-"<http://weblate.freepbx.org/projects/freepbx/dundicheck/es_ES/>\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
+"dundicheck/es_ES/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: dundicheck.i18n.php:4
+#: dundicheck.i18n.php:6
 msgid "Admin"
 msgstr "Administración"
 
@@ -26,12 +26,11 @@ msgstr "Administración"
 msgid "DUNDi Information: %s"
 msgstr "Información de DUNDi: %s"
 
-#: dundicheck.i18n.php:8 page.dundicheck.php:32
-#, php-format
+#: dundicheck.i18n.php:10 page.dundicheck.php:35
 msgid "DUNDi Lookup"
 msgstr "Buscar DUNDi"
 
-#: dundicheck.i18n.php:3
+#: dundicheck.i18n.php:4
 msgid "DUNDi Lookup Registry"
 msgstr "Buscar DUNDi Registry"
 
@@ -39,28 +38,32 @@ msgstr "Buscar DUNDi Registry"
 msgid "DUNDi: "
 msgstr "DUNDi : "
 
-#: page.dundicheck.php:44
+#: page.dundicheck.php:69
+msgid "Enter the number to query against configured DUNDI sources"
+msgstr ""
+
+#: page.dundicheck.php:74
 msgid "Lookup"
 msgstr "Buscar"
 
-#: page.dundicheck.php:41
-msgid "Lookup Another Number:"
-msgstr "Buscar otro numero:"
+#: page.dundicheck.php:57
+msgid "Lookup Another Number"
+msgstr ""
 
-#: page.dundicheck.php:41
-msgid "Lookup Number:"
-msgstr "Buscar Numero:"
+#: page.dundicheck.php:57
+msgid "Lookup Number"
+msgstr ""
 
-#: page.dundicheck.php:17
+#: page.dundicheck.php:20
 msgid "No matches found"
 msgstr "No se encontró"
 
-#: page.dundicheck.php:20
+#: page.dundicheck.php:25
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "Resultados de Troncal DUNDi: %s"
 
-#: page.dundicheck.php:13
+#: page.dundicheck.php:14
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -82,18 +85,33 @@ msgstr ""
 "controles. De lo contrario, eliminar %s desde el sistema remoto antes de "
 "crear éste."
 
-#: dundicheck.i18n.php:5
+#: dundicheck.i18n.php:8
 msgid ""
 "This module will check all configured and enabled DUNDi trunks as part of "
-"the extension registry function, and report back conflicts if\n"
-"\t\tother sites have the same extensions. This does not filter against the "
-"route patterns - it will take any number being created and\n"
-"\t\treport a conflict if that trunk could be used to call that number."
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
 msgstr ""
-"Este módulo comprobará todos los troncales DUNDi  configurados y habilitados "
-"como parte de la función de registro de extensión, e informar conflictos si↵"
-"\n"
-"→→ otros sitios tienen las mismas extensiones. Esto no filtra contra de los "
-"patrones de ruta - que tomará cualquier número que se está creando y↵\n"
-"→→ reportar un conflicto si ese tronco podría ser utilizado para llamar a "
-"ese número."
+
+#~ msgid "Lookup Another Number:"
+#~ msgstr "Buscar otro numero:"
+
+#~ msgid "Lookup Number:"
+#~ msgstr "Buscar Numero:"
+
+#~ msgid ""
+#~ "This module will check all configured and enabled DUNDi trunks as part of "
+#~ "the extension registry function, and report back conflicts if\n"
+#~ "\t\tother sites have the same extensions. This does not filter against "
+#~ "the route patterns - it will take any number being created and\n"
+#~ "\t\treport a conflict if that trunk could be used to call that number."
+#~ msgstr ""
+#~ "Este módulo comprobará todos los troncales DUNDi  configurados y "
+#~ "habilitados como parte de la función de registro de extensión, e informar "
+#~ "conflictos si↵\n"
+#~ "→→ otros sitios tienen las mismas extensiones. Esto no filtra contra de "
+#~ "los patrones de ruta - que tomará cualquier número que se está creando "
+#~ "y↵\n"
+#~ "→→ reportar un conflicto si ese tronco podría ser utilizado para llamar a "
+#~ "ese número."

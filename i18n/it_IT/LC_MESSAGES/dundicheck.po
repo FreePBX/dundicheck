@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:26-0500\n"
+"POT-Creation-Date: 2021-03-16 12:23+0000\n"
 "PO-Revision-Date: 2018-05-29 09:36+0000\n"
 "Last-Translator: Stell0 <stefano.fancello@nethesis.it>\n"
 "Language-Team: Italian <http://*/projects/freepbx/dundicheck/it/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-Language: Italian\n"
 "X-Poedit-Country: ITALY\n"
 
-#: dundicheck.i18n.php:4
+#: dundicheck.i18n.php:6
 msgid "Admin"
 msgstr "Amministratore"
 
@@ -24,12 +24,11 @@ msgstr "Amministratore"
 msgid "DUNDi Information: %s"
 msgstr "Informazioni DUNDi: %s"
 
-#: dundicheck.i18n.php:8 page.dundicheck.php:32
-#, php-format
+#: dundicheck.i18n.php:10 page.dundicheck.php:35
 msgid "DUNDi Lookup"
 msgstr "Ricerca DUNDi"
 
-#: dundicheck.i18n.php:3
+#: dundicheck.i18n.php:4
 msgid "DUNDi Lookup Registry"
 msgstr "Registro di ricerca DUNDi"
 
@@ -37,28 +36,32 @@ msgstr "Registro di ricerca DUNDi"
 msgid "DUNDi: "
 msgstr "DUNDi: "
 
-#: page.dundicheck.php:44
+#: page.dundicheck.php:69
+msgid "Enter the number to query against configured DUNDI sources"
+msgstr ""
+
+#: page.dundicheck.php:74
 msgid "Lookup"
 msgstr "Trova"
 
-#: page.dundicheck.php:41
-msgid "Lookup Another Number:"
-msgstr "Trova un altro numero:"
+#: page.dundicheck.php:57
+msgid "Lookup Another Number"
+msgstr ""
 
-#: page.dundicheck.php:41
-msgid "Lookup Number:"
-msgstr "Numero da trovare:"
+#: page.dundicheck.php:57
+msgid "Lookup Number"
+msgstr ""
 
-#: page.dundicheck.php:17
+#: page.dundicheck.php:20
 msgid "No matches found"
 msgstr "Nessun risultato trovato"
 
-#: page.dundicheck.php:20
+#: page.dundicheck.php:25
 #, php-format
 msgid "Results from DUNDi trunk: %s"
 msgstr "Risultati dal fascio DUNDi: %s"
 
-#: page.dundicheck.php:13
+#: page.dundicheck.php:14
 #, php-format
 msgid ""
 "The number you are trying to use, %s, is currently available from one of the "
@@ -80,17 +83,32 @@ msgstr ""
 "Altrimenti, rimuovi %s dal sistema remoto prima di creare questa nuova "
 "numerazione."
 
-#: dundicheck.i18n.php:5
+#: dundicheck.i18n.php:8
 msgid ""
 "This module will check all configured and enabled DUNDi trunks as part of "
-"the extension registry function, and report back conflicts if\n"
-"\t\tother sites have the same extensions. This does not filter against the "
-"route patterns - it will take any number being created and\n"
-"\t\treport a conflict if that trunk could be used to call that number."
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
 msgstr ""
-"Questo modulo controllerà tutti i trunk DUNDi configurati e abilitati come "
-"parte della funzione del registro di estensione e segnalerà i conflitti se\n"
-"altri siti hanno le stesse estensioni. Questo non filtra in base ai modelli "
-"di percorso: prenderà qualsiasi numero in fase di creazione e\n"
-"segnalare un conflitto se tale trunk potrebbe essere utilizzato per chiamare "
-"quel numero."
+
+#~ msgid "Lookup Another Number:"
+#~ msgstr "Trova un altro numero:"
+
+#~ msgid "Lookup Number:"
+#~ msgstr "Numero da trovare:"
+
+#~ msgid ""
+#~ "This module will check all configured and enabled DUNDi trunks as part of "
+#~ "the extension registry function, and report back conflicts if\n"
+#~ "\t\tother sites have the same extensions. This does not filter against "
+#~ "the route patterns - it will take any number being created and\n"
+#~ "\t\treport a conflict if that trunk could be used to call that number."
+#~ msgstr ""
+#~ "Questo modulo controllerà tutti i trunk DUNDi configurati e abilitati "
+#~ "come parte della funzione del registro di estensione e segnalerà i "
+#~ "conflitti se\n"
+#~ "altri siti hanno le stesse estensioni. Questo non filtra in base ai "
+#~ "modelli di percorso: prenderà qualsiasi numero in fase di creazione e\n"
+#~ "segnalare un conflitto se tale trunk potrebbe essere utilizzato per "
+#~ "chiamare quel numero."
