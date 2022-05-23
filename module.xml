@@ -2,13 +2,12 @@
 	<rawname>dundicheck</rawname>
 	<repo>unsupported</repo>
 	<name>DUNDi Lookup Registry</name>
-	<version>16.0.2</version>
+	<version>17.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<changelog>
-		*16.0.2* FREEI-4793 
-		*16.0.1* 16.0 release
+		*17.0.1* 17.0 release
 	</changelog>
 	<description>
 		This module will check all configured and enabled DUNDi trunks as part of the extension registry function, and report back conflicts if
@@ -22,7 +21,7 @@
 		<version>16.0</version>
 	</depends>
 	<supported>
-		<version>16.0</version>
+		<version>17.0</version>
 	</supported>
 	<category>Admin</category>
 	<location>release/2.11/dundicheck-2.11.0.0.tgz</location>
